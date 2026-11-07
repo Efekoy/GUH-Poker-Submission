@@ -1,3 +1,38 @@
+# Competition submission — claude-make-no-mistakes
+
+**This repository contains the selected Efe V1 bot, ready for organiser review.** It is a public fork of the official Manchester AI Society competition repository.
+
+## Required submission files
+
+All three required files are together at the repository root:
+
+- [claude-make-no-mistakes.pkl](claude-make-no-mistakes.pkl) — initial model, pickle protocol 4
+- [model.py](model.py) — selected bot implementation
+- [poker_math.py](poker_math.py) — required helper module
+
+[Download all submission files as a ZIP](submission.zip). [MANIFEST.json](MANIFEST.json) records their hashes. No runtime weights or other asset files are required. The official engine and interface files below are unchanged.
+
+**Paste this repository URL into the competition form:**
+
+https://github.com/Efekoy/GUH-Poker-Submission
+
+The repository is prepared; the team must complete the submission form. If the form requests individual files, upload the three files listed above together.
+
+## Rebuild and validate
+
+Use Python 3.12 from the repository root:
+
+```sh
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements-dev.txt
+.venv/bin/python -m pytest tests/test_model.py -q
+.venv/bin/python -m submit --team claude-make-no-mistakes
+```
+
+The selected strategy is byte-identical to the tested Efe V1. No alternative models or research assets are included in this submission fork. The original competition instructions follow.
+
+---
+
 # Poker bot hackathon
 
 Write a bot that plays no-limit Texas hold'em. Your bot is a `Model` in

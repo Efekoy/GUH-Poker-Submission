@@ -1,0 +1,26 @@
+{
+  "team": "claude-make-no-mistakes",
+  "selected_candidate": "efe_v1",
+  "python": "3.12.12",
+  "pydantic": "2.14.3",
+  "pickle_protocol": 4,
+  "files": {
+    "claude-make-no-mistakes.pkl": {
+      "bytes": 8954,
+      "sha256": "83246d38c1a27aa9453279b6b38d92346d9a6a10e731ad54ffa98dd95842df49"
+    },
+    "model.py": {
+      "bytes": 17014,
+      "sha256": "824a214432cc55335955a4bc1e7186b69c5e4a718edd25c44319be22c2b20edb"
+    },
+    "poker_math.py": {
+      "bytes": 3213,
+      "sha256": "659416e9ecd8f40a8b700684c3ce4943b5ef879afeecfe4786082ad34f7b4813"
+    }
+  },
+  "vet_globals": [
+    "model.Model",
+    "random.Random"
+  ],
+  "vet_findings": []
+}

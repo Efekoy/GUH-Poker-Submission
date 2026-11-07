@@ -1,0 +1,9 @@
+Wrote ./claude-make-no-mistakes.pkl
+
+Playing your model against dummy bots...
+OK: played legally against every dummy.
+
+Upload these files in the form (all of them):
+  claude-make-no-mistakes.pkl
+  model.py
+  poker_math.py

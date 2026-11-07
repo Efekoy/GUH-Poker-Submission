@@ -1,0 +1,10 @@
+Selected bot: Efe V1
+Team: claude-make-no-mistakes
+
+Required submission files, together at repository root:
+claude-make-no-mistakes.pkl
+model.py
+poker_math.py
+
+Repository: https://github.com/Efekoy/GUH-Poker-Submission
+Use this public repository link in the competition form. If individual uploads are requested, upload the three files above together.
